@@ -4,7 +4,7 @@ These days we have share and follower buttons for almost everything, except GitH
 
 ##Screenshots
 
-<img src='http://www.blarnee.com/images/screenshots_git.jpg'/>
+<img src='http://www.blarnee.com/images/screenshots_gitwa.jpg'/>
 
 
 ##Getting Started
