@@ -2,7 +2,9 @@
 
 These days we have share and follower buttons for almost everything, except GitHub. This projects provides a customizable JavaScript bookmarklet (that uses the GitHub API) for pulling in the watcher counts for links to any repositories you may have on your page. 
 
-It supports three size modes and all you need to do to start using it is include github-watchers.js (or github-watchers-nologo.js for a smaller version without the GitHub logo) and simply select the class below you would like GitHub Watchers to size your button with.
+###Getting Started
+
+The bookmarklet supports three size modes and all you need to do to start using it is include github-watchers.js (or github-watchers-nologo.js for a smaller version without the GitHub logo) and simply select the class below you would like GitHub Watchers to size your button with.
 
 The three size modes supported which can be set via classes on any link are:
 
