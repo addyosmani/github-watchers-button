@@ -53,8 +53,8 @@ or this:
 Should you wish to further customize the button, there are two parts of the code you may wish to look at:
 
 <ul>
-	<li><code>gitwatch.text</code> - this allows you to customize the 'watchers' text displayed on the button</li>
-	<li><code>gitwatch.styles</code> - you can modify the CSS/3 styles used for the button here (thanks to @necolas for his optimizations)</li>
+	<li><code>gitwatch.text</code> - this allows you to customize the 'watchers' text displayed on the button. Modify if you wish it to say something else or require a different language.</li>
+	<li><code>gitwatch.styles</code> - you can modify the CSS/3 styles used for the button here (thanks to @necolas for his optimizations). Each button size (gitwatch, gitwatch.vertical, gitwatch.small) has it's own class so you can easily update on a per-button level if required.</li>
 </ul>
 
 In the future, depending on whether this button gets widely used, multiple theming options and easier customization via -data attributes may also be added.
