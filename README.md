@@ -66,7 +66,7 @@ In the future, depending on whether this button gets widely used, multiple themi
 
 There are a number of further optimizations that are possible on the code for the GitHub Watchers button and I'm going to see just how much smaller we can get it trimmed down to. I may also try getting a button builder such as http://twitter.com/about/resources/tweetbutton together in the near future.
 
-One thing I would like to get in is support for 'watching' a repository without the need to launch a new window or navigate to the repository directly. I believe this should be possible and I'll work on baking this into the next version of the button.
+One thing I would like to get in is support for 'watching' a repository without the need to launch a new window or navigate to the repository directly. I believe this should be possible based on http://developer.github.com/v3/repos/watching/ and I'll work on baking this into the next version of the button.
 
 
 
