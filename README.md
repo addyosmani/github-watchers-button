@@ -1,4 +1,5 @@
-##GitHub Watchers - a button for showing the number of people watching a repository on GitHub
+##GitHub Watchers - An Embeddable GitHub 'Watchers' Button For External Pages
+###Finally display and share the number of people watching a repository for sites outside of GitHub
 
 These days we have share and follower buttons for almost everything, except GitHub. This projects provides a customizable JavaScript button (that uses the GitHub API) for pulling in the watcher counts for links to any repositories you may have on your page. 
 
