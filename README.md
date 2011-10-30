@@ -60,6 +60,10 @@ Should you wish to further customize the button, there are two parts of the code
 
 In the future, depending on whether this button gets widely used, multiple theming options and easier customization via -data attributes may also be added.
 
+##Compatibility
+
+Confirmed as working with Firefox 5-7+, Chrome 11-Canary, Safari 5+, Opera 11.5+, IE9. For some older browsers without gradient support, the buttons should work but may have have a white background (default). If you would prefer to include an image-based gradient for this, feel free to via the <code>gitwatch</code> class.
+
 ##Changelog
 <ul>
 <li>Added watchers capability from API</li>
