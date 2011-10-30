@@ -19,6 +19,13 @@ The three size modes supported which can be set via classes on any link are:
 <li><code>gitwatch small</code> - less wide than the standard size. Excludes the 'watchers' text.</li>
 </ul>
 
+##Sample Code
+
+<pre>
+<a href="http://github.com/addyosmani/todomvc" target="_blank" class="gitwatch large">Watch us on GitHub</a>
+<script type="text/javascript" src="github-watchers.js"></script>
+</pre>
+
 ###Versions
 <ul>
 	<li>Standard (github-watchers.js) - uses an embedded GitHub logo (5.6KB minified)</li>
