@@ -19,7 +19,7 @@
             '.gitwatch:active { top: 1px; }',
             '.gitwatch:hover { background: #eee; text-decoration: none; }',
             '.gitwatch img { vertical-align: middle; padding-right: 5px; border: 0; }',
-            '.gitwatch.large { padding: 10px 30px 8px; font-size:30px; letter-spacing:-2px; bottom:5px; }',
+            '.gitwatch.vertical { padding: 10px 15px 8px; font-size:30px; letter-spacing:-2px; bottom:5px; }',
             '.gitwatch.small { padding: 2px 14px 4px; }'
         ],
 
@@ -89,13 +89,17 @@
         apply: function ( count ) {
             this.applyCss(this.styles.join(''));
             var text = "";
+
             for (var i = 0, l = this.elements.length; i < l; i++) {
-                if (this.elements[i].className.indexOf('small') > 0) {
+                currentEl = this.elements[i];
+                currentClass = currentEl.className;
+
+                if (currentClass.indexOf('small') > 0 || currentClass.indexOf('vertical') > 0) {
                     text = count;
                 } else {
                     text = this.text.replace(/%/, count);
                 }
-                this.elements[i].innerHTML = text;
+                currentEl.innerHTML = text;
             }
         }
 

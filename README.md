@@ -4,7 +4,7 @@ These days we have share and follower buttons for almost everything, except GitH
 
 ##Screenshots
 
-<img src='http://www.blarnee.com/images/screenshots_gitwa.jpg'/>
+<img src='http://www.blarnee.com/images/screenshots_gitwatchb.jpg'/>
 
 
 ##Getting Started
@@ -15,7 +15,7 @@ The three size modes supported which can be set via classes on any link are:
 
 <ul>
 <li><code>gitwatch</code> - standard size. Works best for blog posts and share button-like toolbars.</li>
-<li><code>gitwatch large</code> - largest variation. Best for project homepages.</li>
+<li><code>gitwatch vertical</code> - vertical variation. Best for project homepages.</li>
 <li><code>gitwatch small</code> - less wide than the standard size. Excludes the 'watchers' text.</li>
 </ul>
 
@@ -30,6 +30,13 @@ and when populated, this might look like:
 
 <pre>
 &lt;a href=&quot;http://github.com/addyosmani/todomvc&quot; target=&quot;_blank&quot; class=&quot;gitwatch&quot;&gt;Watch us on GitHub&lt;/a&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;github-watchers.js&quot;&gt;&lt;/script&gt;
+</pre>
+
+or this:
+
+<pre>
+&lt;a href=&quot;http://github.com/addyosmani/todomvc&quot; target=&quot;_blank&quot; class=&quot;gitwatch vertical&quot;&gt;Watch us on GitHub&lt;/a&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;github-watchers.js&quot;&gt;&lt;/script&gt;
 </pre>
 
