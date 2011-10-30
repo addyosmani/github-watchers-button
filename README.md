@@ -23,5 +23,5 @@ Supports three modes which can be set via classes on any link:
 <li>Added window/doc to IIFE</li>
 <li>Moving towards jsHint compatability</li>
 </ul>
-</ul>
+
  
