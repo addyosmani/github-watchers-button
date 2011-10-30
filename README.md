@@ -1,6 +1,11 @@
-##GitHub Watchers - a bookmarklet for showing the number of people watching a repository on GitHub
+##GitHub Watchers - a button for showing the number of people watching a repository on GitHub
 
-These days we have share and follower buttons for almost everything, except GitHub. This projects provides a customizable JavaScript bookmarklet (that uses the GitHub API) for pulling in the watcher counts for links to any repositories you may have on your page. 
+These days we have share and follower buttons for almost everything, except GitHub. This projects provides a customizable JavaScript button (that uses the GitHub API) for pulling in the watcher counts for links to any repositories you may have on your page. 
+
+##Screenshots
+
+<img src='http://www.blarnee.com/images/screenshots_git.jpg'/>
+
 
 ###Getting Started
 
