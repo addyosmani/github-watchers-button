@@ -41,7 +41,18 @@ and when populated, this might look like:
 
 <strong>Note:</strong> The official Twitter retweet button is currently 19KB minified (even when optimized) so the filesizes for the above aren't *too* bad in comparison. 
 
-###Changelog
+##Customization
+
+Should you wish to further customize the button, there are two parts of the code you may wish to look at:
+
+<ul>
+	<li><code>gitwatch.text</code> - this allows you to customize the 'watchers' text displayed on the button</li>
+	<li><code>gitwatch.styles</code> - you can modify the CSS/3 styles used for the button here (thanks to @necolas for his optimizations)</li>
+</ul>
+
+In the future, depending on whether this button gets widely used, multiple theming options and easier customization via -data attributes may also be added.
+
+##Changelog
 <ul>
 <li>Added watchers capability from API</li>
 <li>Stripped non-cross browser offline storage implem</li>
@@ -51,7 +62,7 @@ and when populated, this might look like:
 <li>Moving towards jsHint compatability</li>
 </ul>
 
-###Futher work
+##Futher work
 
 There are a number of further optimizations that are possible on the code for the GitHub Watchers button and I'm going to see just how much smaller we can get it trimmed down to. I may also try getting a button builder such as http://twitter.com/about/resources/tweetbutton together in the near future.
 
