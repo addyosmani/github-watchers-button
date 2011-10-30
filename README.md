@@ -22,7 +22,14 @@ The three size modes supported which can be set via classes on any link are:
 ##Sample Code
 
 <pre>
-&lt;a href=&quot;http://github.com/addyosmani/todomvc&quot; target=&quot;_blank&quot; class=&quot;gitwatch large&quot;&gt;Watch us on GitHub&lt;/a&gt;
+&lt;a href=&quot;YOUR REPOSITORY URL&quot; target=&quot;_blank&quot; class=&quot;gitwatch&quot;&gt;YOUR FALLBACK LINK TEXT&lt;/a&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;github-watchers.js&quot;&gt;&lt;/script&gt;
+</pre>
+
+and when populated, this might look like:
+
+<pre>
+&lt;a href=&quot;http://github.com/addyosmani/todomvc&quot; target=&quot;_blank&quot; class=&quot;gitwatch&quot;&gt;Watch us on GitHub&lt;/a&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;github-watchers.js&quot;&gt;&lt;/script&gt;
 </pre>
 
