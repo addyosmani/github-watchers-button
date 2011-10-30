@@ -7,7 +7,7 @@ These days we have share and follower buttons for almost everything, except GitH
 <img src='http://www.blarnee.com/images/screenshots_git.jpg'/>
 
 
-###Getting Started
+##Getting Started
 
 The bookmarklet supports three size modes and all you need to do to start using it is include github-watchers.js (or github-watchers-nologo.js for a smaller version without the GitHub logo) and simply select the class below you would like GitHub Watchers to size your button with.
 
@@ -22,11 +22,11 @@ The three size modes supported which can be set via classes on any link are:
 ##Sample Code
 
 <pre>
-<a href="http://github.com/addyosmani/todomvc" target="_blank" class="gitwatch large">Watch us on GitHub</a>
-<script type="text/javascript" src="github-watchers.js"></script>
+&lt;a href=&quot;http://github.com/addyosmani/todomvc&quot; target=&quot;_blank&quot; class=&quot;gitwatch large&quot;&gt;Watch us on GitHub&lt;/a&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;github-watchers.js&quot;&gt;&lt;/script&gt;
 </pre>
 
-###Versions
+##Versions
 <ul>
 	<li>Standard (github-watchers.js) - uses an embedded GitHub logo (5.6KB minified)</li>
 	<li>No-logo variation (github-watchers-nologo.js) - no embedded logo (2.6KB minified)</li>
