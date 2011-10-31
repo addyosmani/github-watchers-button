@@ -8,7 +8,7 @@
  *
  */
 
-;(function (window, document) {
+(function (window, document) {
 
     window.gitwatch = {
 
@@ -91,8 +91,8 @@
             var text = "";
 
             for (var i = 0, l = this.elements.length; i < l; i++) {
-                currentEl = this.elements[i];
-                currentClass = currentEl.className;
+                var currentEl = this.elements[i],
+	                currentClass = currentEl.className;
 
                 if (currentClass.indexOf('small') > 0 || currentClass.indexOf('vertical') > 0) {
                     text = count;
@@ -105,7 +105,7 @@
 
     };
 
-    run = function () {
+    var run = function () {
         window.gitwatch.run();
     };
 

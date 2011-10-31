@@ -8,7 +8,7 @@
  *
  */
 
-;(function (window, document) {
+(function (window, document) {
 
     window.gitwatch = {
 
@@ -108,7 +108,7 @@
 
     };
 
-    run = function () {
+    var run = function () {
         window.gitwatch.run();
     };
 
