@@ -64,21 +64,16 @@ In the future, depending on whether this button gets widely used, multiple themi
 
 Confirmed as working with Firefox 5-7+, Chrome 11-Canary, Safari 5+, Opera 11.5+, IE9. For some older browsers without gradient support, the buttons should work but may have have a white background (default). If you would prefer to include an image-based gradient for this, feel free to via the <code>gitwatch</code> class.
 
-##Changelog
-<ul>
-<li>Added watchers capability from API</li>
-<li>Stripped non-cross browser offline storage implem</li>
-<li>Cleaned up some of the previous code</li>
-<li>Added cross-browser styling</li>
-<li>Added window/doc to IIFE</li>
-<li>Moving towards jsHint compatability</li>
-</ul>
 
 ##Futher work
 
 There are a number of further optimizations that are possible on the code for the GitHub Watchers button and I'm going to see just how much smaller we can get it trimmed down to. I may also try getting a button builder such as http://twitter.com/about/resources/tweetbutton together in the near future.
 
 One thing I would like to get in is support for 'watching' a repository without the need to launch a new window or navigate to the repository directly. I believe this should be possible based on http://developer.github.com/v3/repos/watching/ and I'll work on baking this into the next version of the button.
+
+##Credits
+
+GitHub Watchers is a project by Addy Osmani based on the great gitfollow work by Guillermo Rauch. Some of the major changes applied to that work for this release included stripping out code that wasn't cross-browser, cleaning up the codebase, trimming down the file-size, switching to the Watchers API, adding support for multiple modes and moving towards jsHint compatability amongst others. 
 
 
 
