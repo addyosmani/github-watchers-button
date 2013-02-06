@@ -3,6 +3,8 @@
 
 These days we have share and follower buttons for almost everything, except GitHub. This projects provides a customizable JavaScript button (that uses the GitHub API) for pulling in the watcher counts for links to any repositories you may have on your page. 
 
+Updated for API V3
+
 ##Screenshots
 
 <img src='http://www.blarnee.com/images/screenshots_gitwatchb.jpg'/>
