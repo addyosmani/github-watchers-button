@@ -79,12 +79,12 @@
             this.username = match[1];
             this.reponame = match[2];
 
-            this.injectScript('http://github.com/api/v2/json/repos/show/' + encodeURIComponent(this.username) + '/' + encodeURIComponent(this.reponame) + '?callback=' + encodeURIComponent('gitwatch.callback'));
+            this.injectScript('https://api.github.com/repos/' + encodeURIComponent(this.username) + '/' + encodeURIComponent(this.reponame) + '?callback=' + encodeURIComponent('gitwatch.callback'));
         },
 
         callback: function ( object ) {
-            if (object && object.repository) {
-                this.apply(object.repository.watchers);
+            if (object && object.data) {
+                this.apply(object.data.watchers);
             }
         },
 
